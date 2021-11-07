@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattresses AvR</title>
+    <link rel="stylesheet" href="../Catalog/css/catalog-style.css">
+    <link rel="stylesheet" href="../css/mob.css">
+</head>
+<body>
+    <header id="header" class="header"><!--Must been class(active)-->
+        <div id="header_logo" class="header_logo"><!--Must been class(active)-->
+           <a href="index_uk.html"><img src="../img/icons/logo.png" alt="img logo" class="logo"></a>
+        </div>
+        <nav>
+            <ul id="ul" class="ul"><!--Must been class (active)-->
+                <li><a href="index_uk.html">Головна</a></li>
+                <li><a class="active" href="catalog_uk.html">Каталог</a></li>
+                <li><a href="shares_uk.html">Знижки</a></li>
+                <li><a href="info_uk.html">Вся інформація</a></li>
+                <li><a href="#filter" id="nav_filter">Фільтри</a></li>
+                <li><a href="../Catalog/catalog.html">En</a></li>
+            </ul>
+        </nav>
+        <div class="burger_menu"><a id="burger" class="burger">&#9776;</a></div>
+        <div id="icons" class="icons"><!--Must been class(active)-->
+            <img src="../img/icons/search.png" alt="search" >
+            <img src="../img/icons/shoping_basket.png" alt="basket">
+        </div>
+    </header>
+    <section>
+        <div class="search_wrapper">
+            <div class="search_item">
+                <div class="search_title">Знайти найкращий матрас</div>
+                <div class="form_input">
+                    <input type="text" class="input" value="Find" id="input">
+                    <div class="search_button"><a href="#">Пошук</a></div>
+                </div>
+            </div>
+            <div class="search_wrapper_h1">
+                <div class="triangle">
+                    <h1>Каталог</h1>
+                </div>
+            </div>
+        </div>
+        <div class="filter_categories">
+
+            <!-- Filter -->
+            
+            <article id="filter" class="filter">
+                <div class="filter_title_wrapper">    
+                    <div class="filter_title">Фільтер</div>
+                    <button>Зберегти</button>
+                </div>
+
+                <div class="card_wrapper">
+                    <div class="card_title">Вид</div>
+                    <div class="card_form">
+                        <select name="kid" id="card_form" class="card_input">
+                            <option value="Futon">Futon</option>
+                            <option value="Дитяче ліжко">Дитяче ліжко</option>
+                            <option value="Poket Spring">Poket Spring</option>
+                            <option value="Незалежна Пружина">Незалежна Пружина</option>
+                            <option value="Без Пружини">Без Пружини</option>
+                            <option value="На Диван">На Диван</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card_wrapper">
+                    <div class="card_title">Вага на спальному місці </div>
+                    <div class="card_form">
+                        <select name="weight" id="card_form" class="card_input">
+                            <option value="40-60 кг">40-60 кг</option>
+                            <option value="60-70 кг">60-70 кг</option>
+                            <option value="70-80 кг">70-80 кг</option>
+                            <option value="80-90 кг">80-90 кг</option>
+                            <option value="90-100 кг">90-100 кг</option>
+                            <option value="100-140 кг">100-140 кг</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card_wrapper">
+                    <div class="card_title">Жорсткість</div>
+                    <div class="card_form">
+                        <select name="rigidity" id="card_form" class="card_input">
+                            <option value="soft">М'яка</option>
+                            <option value="medium_hardness ">Середньої жорсткості</option>
+                            <option value="tough">Жорстка</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card_wrapper">
+                    <div class="card_title">Висота</div>
+                    <div class="card_form">
+                        <select name="hight" id="card_form" class="card_input">
+                            <option value="180 x 90">180 x 90</option>
+                            <option value="210 x 120">210 x 120</option>
+                            <option value="120 x 60">120 x 60</option>
+                            <option value="180 x 120">180 x 120</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card_wrapper">
+                    <div class="card_title">Цінновий сегмент</div>
+                    <div class="card_form">
+                        <select name="kid" id="card_form" class="card_input">
+                            <option value="cheap">Дешеві(3000-5000грн)</option>
+                            <option value="Дитяче ліжко">Средній(5000-10000грн)</option>
+                            <option value="costly">Дорогі(10000-40000грн)</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="pickUp">Підібрати</button>
+            </article>
+
+            <!-- Card Categories -->
+            
+            <div class="categories_wrapper">
+                <a href="catalog_categories_uk.html" class="categories_card">
+                    <div class="categories_title">Матрац Futon</div>
+                    <img src="../Catalog/img/categories/mattresses_futon_img.png" alt="photo mattresses futon" class="categories_img">
+                </a>
+                <a href="catalog_categories_uk.html" class="categories_card">
+                    <div class="categories_title">Матрац на дитяче ліжко</div>
+                    <img src="../Catalog/img/categories/child_sofa.png" alt="" class="categories_img">
+                </a>
+                <a href="catalog_categories_uk.html" class="categories_card">
+                    <div class="categories_title">Матрац з Poket spring</div>
+                    <img src="../Catalog/img/categories/poket_spring.png" alt="" class="categories_img">
+                </a>
+                <a href="catalog_categories_uk.html" class="categories_card">
+                    <div class="categories_title">Матрац на незалежній пружині</div>
+                    <img src="../Catalog/img/categories/independent_spring.png" alt="" class="categories_img">
+                </a>
+                <a href="catalog_categories_uk.html" class="categories_card">
+                    <div class="categories_title">Матрац безпружини</div>
+                    <img src="../Catalog/img/categories/whithout_spring.png" alt="" class="categories_img">
+                </a>
+                <a href="catalog_categories_uk.html" class="categories_card">
+                    <div class="categories_title">Матрац на диван</div>
+                    <img src="../Catalog/img/categories/on_sofa.png" alt="" class="categories_img">
+                </a>
+            </div>
+        </div>
+        <div class="popular_product_wrapper">
+            <!-- Wrapper that is left (Mattresses Futon) -->
+            <div class="popular_product_title_wrapper">
+                <div class="popular_product_title">Матрац Futon</div>
+                <p class="popular_paragraph">
+                    традиційна японська постільна білизна у вигляді товстого бавовняного матраца  
+                </p>
+            </div>
+            <div class="product_content">
+                <div class="product_content_left">
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Futon Орегінальний</div>
+                        <div class="product_item_subtitle">кол.сірий сезон.літо</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Futon/futon_oridinal.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$300.00</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Futon Метролюкс </div>
+                        <div class="product_item_subtitle">кол.білий, сезон.літо</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Futon/futon_metrolux.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$419.30</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_img">
+                    <div class="product_img_title">Матрац Futon</div>
+                    <img src="../Catalog/img/popular_product/Mattresses Futon/product_img.png" alt="One photo products">
+                </div>
+            </div>
+            <!--Wrapper that is right (MATTRESSES ON THE SOFA)-->
+            <div class="popular_product_title_wrapper_right">
+                <div class="popular_product_title">Матрац для дивану</div>
+                <p class="popular_paragraph">
+                    м’яка товста постільна білизна 
+                </p>
+            </div>
+            <div class="product_content">
+                <div class="product_img">
+                    <div class="product_img_title_right"> На диван</div>
+                    <img src="../Catalog/img/popular_product/Mattresses Sofa/produc_img.png" alt="One photo products">
+                </div>
+                <div class="product_content_right">
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Матрац на диван звичайний  </div>
+                        <div class="product_item_subtitle">кол.білий сезон.літо-зима</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Sofa/mattresse_original.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$356.00</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Матрац Blitz </div>
+                        <div class="product_item_subtitle">кол.білий, сезон.зима-літо</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Sofa/mattresse_blitz.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$320.30</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wrapper that is left (MATTRESSE ON CHILD SOFA) -->
+            <div class="popular_product_title_wrapper">
+                <div class="popular_product_title">Матрац на дитяче ліжко</div>
+                <p class="popular_paragraph">
+                    Дитячі матраци з найкращих матеріалів 
+                </p>
+            </div>
+            <div class="product_content">
+                <div class="product_content_left">
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">IKEA</div>
+                        <div class="product_item_subtitle">кол.сірий сезон.літо-зима</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Child Sofa/ikea.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$370.00</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Lacne</div>
+                        <div class="product_item_subtitle">кол.білий,фіолетовий сезон.літо</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Child Sofa/lacne.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$419.30</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_img">
+                    <div class="product_img_title">Дитяче Ліжко</div>
+                    <img src="../Catalog/img/popular_product/Mattresses Child Sofa/bg.png" alt="One photo products">
+                </div>
+            </div>
+            <!--Wrapper that is right (MATTRESSES POCKET SPRING)-->
+            <div class="popular_product_title_wrapper_right">
+                <div class="popular_product_title">Матрац Pocket Spring</div>
+                <p class="popular_paragraph">
+                    м’яка товста постільна білизна 
+                </p>
+            </div>
+            <div class="product_content">
+                <div class="product_img">
+                    <div class="product_img_title_right">Posket Spring</div>
+                    <img src="../Catalog/img/popular_product/Mattresse Pocket Spring/bg.png" alt="One photo products">
+                </div>
+                <div class="product_content_right">
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Матрац Флоріда</div>
+                        <div class="product_item_subtitle">кол.білий сезон.літо-зима</div>
+                        <img src="../Catalog/img/popular_product/Mattresse Pocket Spring/florida.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$436.00</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Матрац Савана</div>
+                        <div class="product_item_subtitle">кол.білий, сезон.зима</div>
+                        <img src="../Catalog/img/popular_product/Mattresse Pocket Spring/savana.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$720.60</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wrapper that is left (MATTRESSE INDEPENDENT SPRING) -->
+            <div class="popular_product_title_wrapper">
+                <div class="popular_product_title">Матрац на незалежній пружині</div>
+                <p class="popular_paragraph">
+                    Комфортний сон це не міф 
+                </p>
+            </div>
+            <div class="product_content">
+                <div class="product_content_left">
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Лате</div>
+                        <div class="product_item_subtitle">кол.сірий сезон.літо-зима</div>
+                        <img src="../Catalog/img/popular_product/Mattresse Independent Spring/latte.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$570.00</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Магнум</div>
+                        <div class="product_item_subtitle">кол.білий,сірий  сезон.літо</div>
+                        <img src="../Catalog/img/popular_product/Mattresse Independent Spring/magnum.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$319.30</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_img">
+                    <div class="product_img_title">Незалежній</div>
+                    <img src="../Catalog/img/popular_product/Mattresses Futon/product_img.png" alt="One photo products">
+                </div>
+            </div>
+            <!--Wrapper that is right (MATTRESSES WITHOUT SPRING)-->
+            <div class="popular_product_title_wrapper_right">
+                <div class="popular_product_title">Матрац без пружини</div>
+                <p class="popular_paragraph">
+                    М'якість та солодкий сон стануть вашим другом. 
+                </p>
+            </div>
+            <div class="product_content">
+                <div class="product_img">
+                    <div class="product_img_title_right">Безпружини</div>
+                    <img src="../Catalog/img/popular_product/Mattresses Without Spring/bg.png" alt="One photo products">
+                </div>
+                <div class="product_content_right">
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Ортопедичний Матрац</div>
+                        <div class="product_item_subtitle">кол.білий сезон.зима-літо</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Without Spring/orthopedic.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$436.00</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <img src="../Catalog/img/popular_product/icon/Icon top sales.png" alt="top shares" class="product_item_icon_shares">
+                        <div class="product_item_title">Нота Контур</div>
+                        <div class="product_item_subtitle">кол.білий, сезон.зима</div>
+                        <img src="../Catalog/img/popular_product/Mattresses Without Spring/note_border.png" alt="very comform mattress for sofa and have a good design">
+                        <div class="product_item_price_button">
+                            <div class="product_item_price">$520.60</div>
+                            <a href="product_uk.html" class="product_item_button_buy">Купити</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="social_wrapper">
+            <div class="social_items">
+                <div class="social_item">
+                    <img src="../img/icons/call.png" alt="icon call" class="social_icon">
+                    <div class="social_info">+(380) 66102 1988</div>
+                </div>
+                <div class="social_item">
+                    <img src="../img/icons/message.png" alt="icon message" class="social_icon">
+                    <div class="social_info">Vladatonyak2@gmail.com</div>
+                </div>
+                <div class="social_item">
+                    <img src="../img/icons/location.png" alt="icon lacation" class="social_icon">
+                    <div class="social_info">Вулиця.Грушевського міста.Львів </div>
+                </div>
+            </div>
+        </div>             
+        <div class="footer_wrapper_info">
+            <div class="footer_items_info">
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Про нас</div>
+                    <ul>
+                        <li><a href="info_uk.html#more_about_us">Наша історія</a></li>
+                        <li><a href="info_uk.html#team">Наша команда</a></li>
+                    </ul>
+                </div>
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Послуги</div>
+                    <ul>
+                        <li><a href="info_uk.html#services">Доставка</a></li>
+                        <li><a href="info_uk.html#services">Страховка</a></li>
+                        <li><a href="info_uk.html#services">Гарантія</a></li>
+                        <li><a href="#">Створити під замовлення</a></li>
+                    </ul>
+                </div>
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Навігація</div>
+                    <ul>
+                        <li><a href="index_uk.html">Головна</a></li>
+                        <li><a href="catalog_uk.html">Каталог</a></li>
+                        <li><a href="shares_uk.html">Знижки</a></li>
+                        <li><a href="info_uk.html">Вся інформація</a></li>
+                        <li><a href="#filter">Фільтер</a></li>
+                        <li><a href="../Catalog/catalog.html#footer">En</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="socialNetwork">
+            <a href="https://uk-ua.facebook.com/"><img src="../img/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/?lang=uk"><img src="../img/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="../img/icons/instagram.png" alt="Instagram"></a>
+        </div>
+        <h3>2021 Creater websiter by Vlad Antonyak for AvR</h3>
+    </footer>
+
+    <script src="../js/catalog.js"></script>
+</body>
+</html>

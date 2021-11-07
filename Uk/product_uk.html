@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattresses AVR</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../Product/css/product_style.css">
+    <link rel="stylesheet" href="../css/mob.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div id="header_logo" class="header_logo"><!--Must been class(active)-->
+            <a href="index_uk.html"><img src="../img/icons/logo.png" alt="img logo" class="logo"></a>
+         </div>
+         <nav>
+             <ul id="ul" class="ul"><!--Must been class (active)-->
+                 <li><a href="../Uk/index_uk.html">Головна</a></li>
+                 <li><a href="../Uk/catalog_uk.html">Каталог</a></li>
+                 <li><a href="#">Знижки</a></li>
+                 <li><a href="#">Вся Інформація</a></li>
+                 <li><a href="../Product/product.html">En</a></li>
+             </ul>
+         </nav>
+         <div class="burger_menu"><a id="burger" class="burger">&#9776;</a></div>
+         <div id="icons" class="icons"><!--Must been class(active)-->
+             <img src="../img/icons/search.png" alt="icon search" >
+             <img src="../img/icons/shoping_basket.png" alt="icon basket">
+         </div>
+    </header>
+    <section>
+        <div class="bredcrumb">
+            <ul>
+                <li><a href="../Uk/index_uk.html">Головна</a></li>
+                <li><a href="../Uk/catalog_uk.html">Каталог</a></li>
+                <li><a href="product.html" class="breadcrumb active">Продукт</a></li>
+            </ul>
+        </div>
+        <div class="product_tabs">
+            <div class="product_tab active">Головна</div>
+            <div class="product_tab">Характеристика</div>
+            <div class="product_tab">Опис</div>
+        </div>
+
+        <!-- Tab Home -->
+        
+        <div class="product_home_wrapper active">
+            <div class="product_content_left">
+                <img src="../Product/img/img_product.png" alt="photo product">
+                <div class="product_imgs_other_racurs">
+                    <img src="#" alt="" value="img">
+                    <img src="#" alt="" value="img">
+                    <img src="#" alt="" value="img">
+                </div>
+            </div>
+            <div class="product_content_right">
+                <div class="product_name_price_wrapper">
+                    <div class="product_name">Exstra Carbon</div>
+                    <div class="product_price">100$</div>
+                </div>
+                <!-- List colors for mattresses -->
+                <select name="color_mattresses" id="color_mattresses" class="product_select">
+                    <option value="black">Чорний</option>
+                    <option value="brow">Коричневий</option>
+                    <option value="white">Білий</option>
+                    <option value="grey">Сірий</option>
+                </select>
+                <!-- Counter -->
+                <div class="counter">
+                    <div class="counter_wrapper">
+                        <button class="counter_btn" data-direction="minus">-</button>
+                        <input type="text" value="0" class="counter_value">
+                        <button class="counter_btn" data-direction="plus">+</button>
+                    </div>
+                </div>
+                <!-- Dimensions -->
+                <select name="color_mattresses" id="color_mattresses" class="product_select_dimensions">
+                    <option value="180 x 90">180 x 90</option>
+                    <option value="210 x 120">210 x 120</option>
+                    <option value="120 x 60">120 x 60</option>
+                    <option value="180 x 120">180 x 120</option>
+                </select>
+                <!-- Button Buy -->
+                <div class="product_button">Добавити в корзину</div>
+            </div>
+        </div>
+
+        <!-- Tab Charecteristic -->
+        
+        <div class="charecteristic_wrapper">
+            <product_charecteristic-list>
+                <h2 class="charecteristic_heading">
+                    Опис
+                    <span class="charecteristic_subheading">Exstra Carbon</span>
+                </h2>
+                <section class="charecteristic_section">   
+                    <dl class="charecteristic_full_list">
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Тип</span></dt>
+                            <dd class="charecteristic_value">Футон</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Жорсткість</span></dt>
+                            <dd class="charecteristic_value">Середня</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Наповнювач</span></dt>
+                            <dd class="charecteristic_value">Ecoflex</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Покривний матеріал</span></dt>
+                            <dd class="charecteristic_value">Linen</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Особливосиі</span></dt>
+                            <dd class="charecteristic_value">подвійний матрац зима-літо стійкий до польових кліщів </dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Розмін</span></dt>
+                            <dd class="charecteristic_value">180 x 90</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Спальне місця</span></dt>
+                            <dd class="charecteristic_value">Одне</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Висота</span></dt>
+                            <dd class="charecteristic_value">12 см</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Максимальна вага</span></dt>
+                            <dd class="charecteristic_value">90 кг</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Гарантія</span></dt>
+                            <dd class="charecteristic_value">18 місяців</dd>
+                        </div>
+                    </dl>
+                </section>
+            </product_charecteristic-list>
+            <div class="product_content_right">
+                <img src="../Product/img/img_product.png" alt="photo product">
+                <div class="product_name_price_wrapper">
+                    <div class="product_name">Exstra Carbon</div>
+                    <div class="product_price">100$</div>
+                </div>
+                <div class="product_button_body"> 
+                    <!-- List colors for mattresses -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select">
+                        <option value="black">Чорний</option>
+                        <option value="brow">Коричневий</option>
+                        <option value="white">Білий</option>
+                        <option value="grey">Сірий</option>
+                    </select>
+                    <!-- Counter -->
+                    <div class="counter">
+                        <div class="counter_wrapper">
+                            <button class="counter_btn" data-direction="minus">-</button>
+                            <input type="text" value="0" class="counter_value">
+                            <button class="counter_btn" data-direction="plus">+</button>
+                        </div>
+                    </div>
+                    <!-- Dimensions -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select_dimensions">
+                        <option value="180 x 90">180 x 90</option>
+                        <option value="210 x 120">210 x 120</option>
+                        <option value="120 x 60">120 x 60</option>
+                        <option value="180 x 120">180 x 120</option>
+                    </select>
+                </div>
+                <!-- Button Buy -->
+                <div class="product_button">Добавити в корзину</div>
+            </div>
+        </div>
+
+        <!-- TAB DESCRIPTION -->
+        <div class="description_wrapper">
+            <div class="description_content_left">
+                <div class="description_title_name_body">
+                    <div class="description_title">Опис</div>
+                    <div class="description_name">Матрац Exstra Carbon</div>
+                </div>
+                <div class="description_content">
+                    Модель матраца економ -сегмента без пружин, представлена чергуванням шарів інноваційного матеріалу EcoFlex та флексопости.
+                    Використання цих екологічно чистих та гіпоалергенних матеріалів забезпечує відмінну вентиляцію матраца та обмін вологою під час сну. 
+                </div>
+            </div>
+            <div class="product_content_right">
+                <img src="../Product/img/img_product.png" alt="photo product">
+                <div class="product_name_price_wrapper">
+                    <div class="product_name">Exstra Carbon</div>
+                    <div class="product_price">100$</div>
+                </div>
+                <div class="product_button_body"> 
+                    <!-- List colors for mattresses -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select">
+                        <option value="black">Чорний</option>
+                        <option value="brow">Коричневий</option>
+                        <option value="white">Білий</option>
+                        <option value="grey">Сірий</option>
+                    </select>
+                    <!-- Counter -->
+                    <div class="counter">
+                        <div class="counter_wrapper">
+                            <button class="counter_btn" data-direction="minus">-</button>
+                            <input type="text" value="0" class="counter_value">
+                            <button class="counter_btn" data-direction="plus">+</button>
+                        </div>
+                    </div>
+                    <!-- Dimensions -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select_dimensions">
+                        <option value="180 x 90">180 x 90</option>
+                        <option value="210 x 120">210 x 120</option>
+                        <option value="120 x 60">120 x 60</option>
+                        <option value="180 x 120">180 x 120</option>
+                    </select>
+                </div>
+                <!-- Button Buy -->
+                <div class="product_button">Добавити в корзину</div>
+            </div>
+        </div>
+
+        <div class="similar_product_wrapper">
+            <h1 class="similar_h1">Схожі товари</h1>
+            <div class="similar_products">
+                <div class="similar_items">
+                    <div class="similar_item">
+                        <img src="../Product/img/Silimar/ikea.png" alt="ikea">
+                        <h3 class="similar_item_title">Ikea</h3>
+                    </div>
+                    <div class="similar_item">
+                        <img src="../Product/img/Silimar/dormeo.png" alt="dormeo">
+                        <h3 class="similar_item_title">Dormeo</h3>
+                    </div>
+                    <div class="similar_item">
+                        <img src="../Product/img/Silimar/original.png" alt="original">
+                        <h3 class="similar_item_title">Oridinal</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="social_wrapper">
+            <div class="social_items">
+                <div class="social_item">
+                    <img src="../img/icons/call.png" alt="icon call" class="social_icon">
+                    <div class="social_info">+(380) 66102 1988</div>
+                </div>
+                <div class="social_item">
+                    <img src="../img/icons/message.png" alt="icon message" class="social_icon">
+                    <div class="social_info">Vladatonyak2@gmail.com</div>
+                </div>
+                <div class="social_item">
+                    <img src="../img/icons/location.png" alt="icon lacation" class="social_icon">
+                    <div class="social_info">Вулиця.Грушевського міста.Львів </div>
+                </div>
+            </div>
+        </div>             
+        <div class="footer_wrapper_info">
+            <div class="footer_items_info">
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Про нас</div>
+                    <ul>
+                        <li><a href="#">Наша Історія</a></li>
+                        <li><a href="#">Наша Rоманда</a></li>
+                    </ul>
+                </div>
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Послуги</div>
+                    <ul>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Страховка</a></li>
+                        <li><a href="#">Гарантія</a></li>
+                        <li><a href="#">Створити під замовлення</a></li>
+                    </ul>
+                </div>
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Навігація</div>
+                    <ul>
+                        <li><a href="index_uk.html">Головна</a></li>
+                        <li><a href="catalog_uk.html">Каталог</a></li>
+                        <li><a href="shares_uk.html">Знижки</a></li>
+                        <li><a href="info_uk.html">Вся Інформація</a></li>
+                        <li><a href="../Product/product.html#footer">En</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="socialNetwork">
+            <a href="https://uk-ua.facebook.com/"><img src="../img/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/?lang=uk"><img src="../img/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="../img/icons/instagram.png" alt="Instagram"></a>
+        </div>
+        <h3>2021 Creater websiter by Vlad Antonyak for AvR</h3>
+    </footer>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/product_jq.js"></script>
+    <script src="../js/product.js"></script>
+    
+</body>
+</html>

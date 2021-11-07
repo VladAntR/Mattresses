@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattresses AvR</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/product_style.css">
+    <link rel="stylesheet" href="../css/mob.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div id="header_logo" class="header_logo"><!--Must been class(active)-->
+            <a href="../index.html"><img src="../img/icons/logo.png" alt="img logo" class="logo"></a>
+         </div>
+         <nav>
+             <ul id="ul" class="ul"><!--Must been class (active)-->
+                 <li><a href="../index.html">Home</a></li>
+                 <li><a href="../Catalog/catalog.html">Catalog</a></li>
+                 <li><a href="#">Shares</a></li>
+                 <li><a href="#">All Information</a></li>
+                 <li><a href="../Uk/product_uk.html">Uk</a></li>
+             </ul>
+         </nav>
+         <div class="burger_menu"><a id="burger" class="burger">&#9776;</a></div>
+         <div id="icons" class="icons"><!--Must been class(active)-->
+             <img src="../img/icons/search.png" alt="icon search" >
+             <img src="../img/icons/shoping_basket.png" alt="icon basket">
+         </div>
+    </header>
+    <section>
+        <div class="bredcrumb">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Catalog/catalog.html">Catalog</a></li>
+                <li><a href="product.html" class="breadcrumb active">Product</a></li>
+            </ul>
+        </div>
+        <div class="product_tabs">
+            <div class="product_tab active">Home</div>
+            <div class="product_tab">Charecteristic</div>
+            <div class="product_tab">Discription</div>
+        </div>
+
+        <!-- Tab Home -->
+        
+        <div class="product_home_wrapper active">
+            <div class="product_content_left">
+                <img src="img/img_product.png" alt="photo product">
+                <div class="product_imgs_other_racurs">
+                    <img src="#" alt="" value="img">
+                    <img src="#" alt="" value="img">
+                    <img src="#" alt="" value="img">
+                </div>
+            </div>
+            <div class="product_content_right">
+                <div class="product_name_price_wrapper">
+                    <div class="product_name">Exstra Carbon</div>
+                    <div class="product_price">100$</div>
+                </div>
+                <!-- List colors for mattresses -->
+                <select name="color_mattresses" id="color_mattresses" class="product_select">
+                    <option value="black">Black</option>
+                    <option value="brow">Brow</option>
+                    <option value="white">White</option>
+                    <option value="grey">Grey</option>
+                </select>
+                <!-- Counter -->
+                <div class="counter">
+                    <div class="counter_wrapper">
+                        <button class="counter_btn" data-direction="minus">-</button>
+                        <input type="text" value="0" class="counter_value">
+                        <button class="counter_btn" data-direction="plus">+</button>
+                    </div>
+                </div>
+                <!-- Dimensions -->
+                <select name="color_mattresses" id="color_mattresses" class="product_select_dimensions">
+                    <option value="180 x 90">180 x 90</option>
+                    <option value="210 x 120">210 x 120</option>
+                    <option value="120 x 60">120 x 60</option>
+                    <option value="180 x 120">180 x 120</option>
+                </select>
+                <!-- Button Buy -->
+                <div class="product_button">Add to basket</div>
+            </div>
+        </div>
+
+        <!-- Tab Charecteristic -->
+        
+        <div class="charecteristic_wrapper">
+            <product_charecteristic-list>
+                <h2 class="charecteristic_heading">
+                    Description
+                    <span class="charecteristic_subheading">Exstra Carbon</span>
+                </h2>
+                <section class="charecteristic_section">   
+                    <dl class="charecteristic_full_list">
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Type</span></dt>
+                            <dd class="charecteristic_value">Futon</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Rigidity</span></dt>
+                            <dd class="charecteristic_value">Middle</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Filler</span></dt>
+                            <dd class="charecteristic_value">Ecoflex, </dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Cover Material</span></dt>
+                            <dd class="charecteristic_value">Linen</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Features</span></dt>
+                            <dd class="charecteristic_value">doubele mattresse winter-summer resistant to field mites</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Dimensions</span></dt>
+                            <dd class="charecteristic_value">180 x 90</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Sleeping Size</span></dt>
+                            <dd class="charecteristic_value">Single</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Heighting</span></dt>
+                            <dd class="charecteristic_value">12 cm</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Max weight</span></dt>
+                            <dd class="charecteristic_value">90 kg</dd>
+                        </div>
+                        <div class="charecteristic_item">
+                            <dt class="charecteristic_label"><span>Guarantee</span></dt>
+                            <dd class="charecteristic_value">18 month</dd>
+                        </div>
+                    </dl>
+                </section>
+            </product_charecteristic-list>
+            <div class="product_content_right">
+                <img src="img/img_product.png" alt="photo product">
+                <div class="product_name_price_wrapper">
+                    <div class="product_name">Exstra Carbon</div>
+                    <div class="product_price">100$</div>
+                </div>
+                <div class="product_button_body"> 
+                    <!-- List colors for mattresses -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select">
+                        <option value="black">Black</option>
+                        <option value="brow">Brow</option>
+                        <option value="white">White</option>
+                        <option value="grey">Grey</option>
+                    </select>
+                    <!-- Counter -->
+                    <div class="counter">
+                        <div class="counter_wrapper">
+                            <button class="counter_btn" data-direction="minus">-</button>
+                            <input type="text" value="0" class="counter_value">
+                            <button class="counter_btn" data-direction="plus">+</button>
+                        </div>
+                    </div>
+                    <!-- Dimensions -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select_dimensions">
+                        <option value="180 x 90">180 x 90</option>
+                        <option value="210 x 120">210 x 120</option>
+                        <option value="120 x 60">120 x 60</option>
+                        <option value="180 x 120">180 x 120</option>
+                    </select>
+                </div>
+                <!-- Button Buy -->
+                <div class="product_button">Add to basket</div>
+            </div>
+        </div>
+
+        <!-- TAB DESCRIPTION -->
+        <div class="description_wrapper">
+            <div class="description_content_left">
+                <div class="description_title_name_body">
+                    <div class="description_title">Discription</div>
+                    <div class="description_name">Mattresse Exstra Carbon</div>
+                </div>
+                <div class="description_content">
+                    Springless model of a mattress of an economy segment, presented by alternation of layers of innovative material EcoFlex and flexopost.
+                    The use of these environmentally friendly and hypoallergenic materials provide excellent mattress ventilation and moisture exchange during sleep. 
+                </div>
+            </div>
+            <div class="product_content_right">
+                <img src="img/img_product.png" alt="photo product">
+                <div class="product_name_price_wrapper">
+                    <div class="product_name">Exstra Carbon</div>
+                    <div class="product_price">100$</div>
+                </div>
+                <div class="product_button_body"> 
+                    <!-- List colors for mattresses -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select">
+                        <option value="black">Black</option>
+                        <option value="brow">Brow</option>
+                        <option value="white">White</option>
+                        <option value="grey">Grey</option>
+                    </select>
+                    <!-- Counter -->
+                    <div class="counter">
+                        <div class="counter_wrapper">
+                            <button class="counter_btn" data-direction="minus">-</button>
+                            <input type="text" value="0" class="counter_value">
+                            <button class="counter_btn" data-direction="plus">+</button>
+                        </div>
+                    </div>
+                    <!-- Dimensions -->
+                    <select name="color_mattresses" id="color_mattresses" class="product_select_dimensions">
+                        <option value="180 x 90">180 x 90</option>
+                        <option value="210 x 120">210 x 120</option>
+                        <option value="120 x 60">120 x 60</option>
+                        <option value="180 x 120">180 x 120</option>
+                    </select>
+                </div>
+                <!-- Button Buy -->
+                <div class="product_button">Add to basket</div>
+            </div>
+        </div>
+
+        <div class="similar_product_wrapper">
+            <h1 class="similar_h1">Similar Product</h1>
+            <div class="similar_products">
+                <div class="similar_items">
+                    <div class="similar_item">
+                        <img src="img/Silimar/ikea.png" alt="ikea">
+                        <h3 class="similar_item_title">Ikea</h3>
+                    </div>
+                    <div class="similar_item">
+                        <img src="img/Silimar/dormeo.png" alt="dormeo">
+                        <h3 class="similar_item_title">Dormeo</h3>
+                    </div>
+                    <div class="similar_item">
+                        <img src="img/Silimar/original.png" alt="original">
+                        <h3 class="similar_item_title">Oridinal</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <footer class="footer" id="footer">
+        <div class="social_wrapper">
+            <div class="social_items">
+                <div class="social_item">
+                    <img src="../img/icons/call.png" alt="icon call" class="social_icon">
+                    <div class="social_info">+(380) 66102 1988</div>
+                </div>
+                <div class="social_item">
+                    <img src="../img/icons/message.png" alt="icon message" class="social_icon">
+                    <div class="social_info">Vladatonyak2@gmail.com</div>
+                </div>
+                <div class="social_item">
+                    <img src="../img/icons/location.png" alt="icon lacation" class="social_icon">
+                    <div class="social_info">Street.Grushevskogo town.Lviv</div>
+                </div>
+            </div>
+        </div>             
+        <div class="footer_wrapper_info">
+            <div class="footer_items_info">
+                <div class="footer_item_info">
+                    <div class="footer_title_info">About us</div>
+                    <ul>
+                        <li><a href="#">Our History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Services</div>
+                    <ul>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Gurantee</a></li>
+                        <li><a href="#">Creation under the order</a></li>
+                    </ul>
+                </div>
+                <div class="footer_item_info">
+                    <div class="footer_title_info">Navigation</div>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../Catalog/catalog.html">Catalog</a></li>
+                        <li><a href="../Shares/shares.html">Shares</a></li>
+                        <li><a href="../All_information/info.html">All information</a></li>
+                        <li><a href="../Uk/product_uk.html#footer">Uk</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="socialNetwork">
+            <a href="https://uk-ua.facebook.com/"><img src="../img/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/?lang=uk"><img src="../img/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="../img/icons/instagram.png" alt="Instagram"></a>
+        </div>
+        <h3>2021 Creater websiter by Vlad Antonyak for AvR</h3>
+    </footer>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/product_jq.js"></script>
+    <script src="../js/product.js"></script>
+    
+</body>
+</html>
