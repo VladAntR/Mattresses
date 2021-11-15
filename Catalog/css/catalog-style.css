@@ -86,6 +86,13 @@ body {
   background-color: #FFC047;
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+  }
+}
 .header {
   display: flex;
   margin: 1% auto;
