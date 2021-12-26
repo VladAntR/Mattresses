@@ -29,6 +29,9 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  max-width: 1537px;
+  display: block;
+  margin: 0 auto;
 }
 
 img {
@@ -86,13 +89,6 @@ body {
   background-color: #FFC047;
 }
 
-@media screen and (min-width: 1440px) {
-  body {
-    max-width: 1440px;
-    display: block;
-    margin: 0 auto;
-  }
-}
 .header {
   display: flex;
   margin: 1% auto;
